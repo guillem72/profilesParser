@@ -1,0 +1,565 @@
+Profile title  ,ACCOUNT MANAGER(1) 
+Summary statement  ,Senior focal point for client sales and customer satisfaction. 
+Mission ,"Builds business relationships with clients to facilitate the sale of hardware, "
+,"software, telecommunications or ICT services. Identifies opportunities and "
+,manages sourcing and delivery of products to customers. Has responsibility 
+,for achieving sales targets and maintaining profitability.  
+Deliverables  ,Accountable Responsible Contributor 
+, Sale  Business  Sales Forecast 
+,Relationship  Technical proposal 
+, Production Forecast 
+Main task/s , Maintain overall customer satisfaction with products and/or services 
+, Identify opportunities to propose new products or services to client(s) 
+, Be the primary contact point for client executive management  
+, Deliver value added presentations related to products and services to 
+,customer executive management 
+, Lead negotiations to establish profitable contracts with client(s) 
+, Maintain and enhance business relationships 
+e-competences ,D.5. Sales Proposal Development  Level  4 
+(from e-CF) ,
+,D.7. Sales Management  Level  5 
+,E.1. Forecast Development Level  3 
+,E.4. Relationship Management  Level  4 
+,D.6. Channel ManagementLevel  4 
+KPI area ,Sales quota achievement 
+Profile title ,BUSINESS ANALYST(2) 
+Summary statement ,Analyses Information System for improving business performance. 
+Mission ,Identifies areas where information system changes are needed to support 
+,business plans and monitors the impact in terms of change management. 
+,Contributes to the general functional requirements of the business 
+,organization in the area of ICT solutions. Analyses business needs and 
+,translates them into ICT solutions. 
+Deliverables  ,Accountable Responsible Contributor 
+, Business  Business case  Business plan 
+,requirements  Business relationship  ICT Strategy & 
+,implementation 
+Main task/s , Contribute to the preparation of the business plan of the organization  
+, Identify areas for improvement in business processes providing possible 
+,ICT solutions compliant with the ICT strategy 
+," Build requirements, specifications, business processes and the business "
+,case related to the proposed solutions 
+, Analyze required information and documents 
+e-competences ,A.1. IS and Business Strategy alignment Level 4 
+(from e-CF) ,
+,A.3. Business Plan Development Level 4 
+,E.5. Process Improvement Level 4 
+,D.11. Needs Identification Level 4 
+KPI area ,Adequacy of the business requirements in response to the business plan 
+D.11. Needs Identificatio,
+Level 4,
+Profile title ,BUSINESS INFORMATION MANAGER(3) 
+Summary statement ,Proposes plans and manages functional and technical evolutions of the 
+,Information System within the relevant business domain. 
+Mission ,Manages and implements updates to existing applications and 
+,"maintenance activities guided by the needs, costs and plans agreed with "
+,internal users. Ensures quality of service and internal user satisfaction.  
+Deliverables  ,Accountable Responsible Contributor 
+, Project portfolio  Solution specification   Business plan 
+Main task/s , Responsible for managing the information technology development 
+,within the business domain 
+, Anticipate changes to the Information System and the business impact 
+,and vice versa 
+," Formalize, consolidate and drive the development of the configuration "
+,of the information system 
+, Evaluate the relevance of the Information systems to the business 
+,domain 
+, Build a knowledge base through understanding the organization’s 
+,information system 
+e-competences ,A.1. IS and Business Strategy Alignment Level 4 
+(from e-CF) ,
+,A.3. Business Plan Development Level 4 
+,E.2. Project and Portfolio Management Level 4 
+,E.7. Business Change Management Level 4 
+,D.10. Information and Knowledge Management Level 5 
+KPI area ,Business User requirement satisfaction 
+Profile title ,CHIEF INFORMATION OFFICER (CIO)(4) 
+Summary statement ,Develops and maintains Information Systems compliant to business and 
+,organisation’s needs. 
+Mission ,Defines and implements governance and ICT strategy. Determines necessary 
+,resources for ICT strategy implementation. Anticipates ICT market evolutions 
+,and company business needs. Contributes to the development of the 
+,organisation’s strategic plan. Leads or participates in larger change projects.  
+Deliverables  ,Accountable Responsible Contributor 
+, ICT Strategy &  Project Portfolio  Risk management policy 
+,implementation  Service Level 
+, ICT Department & Agreement 
+,budget  Information Security 
+,Strategy 
+Main task/s , Define the company’s strategy for IT 
+, Manage all IS department activity 
+, Responsible for the quality and management of customer-supplier 
+,relationships 
+, Define and ensure compliance with Service Level Agreements 
+, Negotiate and implement complex contracts  
+, Make recommendations to senior general management 
+, Ensure that change management processes are implemented  
+," Ensure the reliability, confidentiality, security and integrity of "
+,Information Systems 
+e-competences ,A1. IS and Business Strategy Alignment  Level 5 
+(from e-CF) ,
+,A3. Business Plan Development  Level 5 
+,E2. Project and Portfolio Management  Level 5 
+,E4. Relationship Management  Level 4 
+,E9. IT Governance  Level 5 
+KPI area ,"Overall added value, efficiency and effectiveness of the information system "
+Profile title ,DATABASE ADMINISTRATOR(5) 
+Summary statement ,"Designs, implements, or monitors and maintains databases. "
+Mission ,"Ensures the design and the implementation (Developer), or ensures the "
+,maintenance and repair of an organization's database (Administrator) to 
+,support information system solutions that meet business information 
+,"needs. Verifies the development and design of database strategies, "
+,"monitoring and improving database performance and capacity, and "
+,"planning for future expansion requirements. Plans, co-ordinates and "
+,implements security measures to safeguard the database.  
+Deliverables  ,Accountable Responsible Contributor 
+,  Data model  Solution  Test procedure 
+,Specification  Solved incident 
+, Solution in operation 
+Main task/s , Define/ build/optimize database models and schemas  
+, Apply standards methods and tools for measuring and reporting on wide 
+,"set of relevant performance indicators (response time, availability, "
+,"safety, integrity …) "
+, Produce database procedures and instructions for other analysts or 
+,administrators 
+, Monitor and maintain databases  
+," Identify, investigate and correct problems or incidents related to "
+,databases 
+," Provide training, support, advice and guidance on database issues to "
+,other information system practitioners  
+e-competences ,A.6.  Application design Level 1 
+(from e-CF) ,
+,B.1.  Application development Level 3 
+,B.2.  Component integration Level 2-3 
+,C.4.  Problem management Level 3 
+,D.10. Information and knowledge management Level 3 
+KPI area ,Database in operation 
+Application,
+Componen,
+Profile title ,DEVELOPER(6) 
+Summary statement ,Builds/codes ICT solutions and specifies ICT products according to customer 
+,needs. 
+Mission ,Ensures building and implementing of ICT applications. Contributes to 
+,"planning, low level design. Compiles diagnostic programs and designs and "
+,writes code for operating systems and software to ensure optimum 
+,efficiency and functionality.  
+Deliverables ,Accountable Responsible Contributor 
+, Hardware Solution  Software Design
+,Component Documentation Description 
+, Software  Test Procedure 
+,Component  Solution in Operation 
+Main task/s , Develop component 
+, Engineer component  
+, Shape documentation 
+, Provide component support beyond the first level 
+, Supply 3rd level support 
+e-competences ,B.1. Application Development Level 3 
+(from e-CF) ,
+,B.2. Component Integration Level 2 
+,B.3. Testing Level 2 
+,B.5. Documentation Production Level 3 
+,C.4. Problem Management  Level 3 
+KPI area ,Fully functional ICT components  
+Application,
+Componen,
+Profile title ,DIGITAL MEDIA SPECIALIST(7) 
+Summary statement  ,Creates websites and multimedia applications combining the power of 
+,"digital technology with effective use of graphics, audio, photographic and "
+,video images. 
+Mission ,"Designs, lays out and codes, multimedia applications and websites to "
+,"maximize information presentation, including marketing messages. Makes "
+,recommendations on technical interfaces and ensures sustainability 
+,through application of appropriate content management systems.  
+Deliverables  ,Accountable Responsible Contributor 
+, Multimedia  Integrated  Solution in Operation 
+,component Solution 
+Main task/s , Design web and multimedia content to provide clear and visually 
+,attractive solution in line with customer needs 
+, Test and resolve any technical issues 
+, Ensure accessibility for disabled users and for accessibility via a range of 
+,browsers 
+," Ensure compliance with privacy, legal requirements and environmental "
+,constraints 
+e-competences ,A.6.  Application Design Level 2 
+(from e-CF) ,
+,B.1.  Application DevelopmentLevel 3 
+,B.3.  Testing Level 2 
+,B.4. Solution Deployment Level 3 
+,D.12.  Digital MarketingLevel 2 
+KPI area ,Fully functional web components 
+Applicatio,
+D.12.  Digital Marketing,
+Level 2,
+Profile title ,ENTERPRISE ARCHITECT(8) 
+Summary statement ,Designs and maintains the Enterprise Architecture 
+Mission ,Balances technological opportunities with business (process) 
+,"requirements. Maintains a holistic view of the organisation’s strategy, "
+,"processes, information and ICT assets. Links the business mission, strategy "
+,and processes to the IT strategy.  
+Deliverables  ,Accountable Responsible Contributor 
+, Enterprise  Business Plan
+,Architecture   New Technology 
+,integration proposal  
+, Knowledge or 
+,Information Base 
+, Business Process 
+,Definition 
+Main task/s , Devise business improvement opportunities and create proposals 
+, Align IT strategy and planning with the organisation’s business goals 
+,"Streamline business processes, functions, procedures and workflows "
+,and apply a consistent implementation approach 
+, Manage stakeholder engagement in the development of new 
+,processes and systems and verifies feasibility 
+, Conduct post-implementation reviews to evaluate benefits accrued 
+,from new processes and systems 
+e-competences ,A.1.  IS and Business Strategy Alignment Level 4-5 
+(from e-CF) ,
+,A.3.  Business Plan Development Level 3-4 
+,A.5.  Architecture Design Level 4 
+,A.7.  Technology Trend Monitoring Level 5 
+,E.7.  Business Change Management Level 4-5 
+KPI area ,Quality and consistency of enterprise architecture aligned with business 
+,objectives 
+Trend Monitorin,
+Profile title  ,ICT CONSULTANT(9) 
+Summary statement ,Supports understanding of how new ICT technologies add value to a 
+,business. 
+Mission ,Ensures technological watch to inform stakeholders of emergent 
+,technologies. Anticipates and brings to maturity ICT projects by the 
+,introduction of appropriate technology. Communicates the value of new 
+,technologies to the business. Contributes to project definitions.  
+Deliverables  ,Accountable Responsible Contributor 
+, New technology  Knowledge or  Business requirements 
+,integration proposal information base (on Project plan 
+,his domain) 
+Main task/s ,Provide advice on how to optimize the use of existing tools and systems 
+,Raise awareness of information technology innovations and potential  
+,value to a business 
+,Make recommendations for the development and implementation of a 
+,business project or technological solution 
+,Participate in the definition of general project specifications 
+,Participate in the assessment and choice of ICT solutions 
+e-competences ,A.7. Technology Trend Monitoring Level 5 
+(from e-CF) ,
+,E.7. Business Change Management Level 4-5 
+,D.11. Needs Identification Level 4 
+,A.4. Product or Project Planning Level 3 
+,E.3. Risk Management Level 3 
+KPI area ,Impact of advice in new technologies implementation  
+Trend Monitorin,
+D.11. Needs Identificatio,
+Profile title ,ICT OPERATIONS MANAGER(10) 
+Summary statement ,"Manages operations, people and overall resources for the ICT activity.  "
+Mission ,Implements and maintains a designated part of the ICT infrastructure. 
+,Ensures that activities are conducted in accordance with organizational 
+,"rules, processes and standards. Anticipates necessary changes according to "
+,company strategy and cost controls. Evaluates and recommends 
+,investments based on new technologies. Ensures the effectiveness of the 
+,ICT and associated risk management.  
+Deliverables  ,Accountable Responsible Contributor 
+, Budget plan  HR Development plan Eco-responsibilities 
+, Training Program Assurance 
+Main task/s ,Coordinate and manage staff  
+,"Direct, organize, plan and monitor activities "
+,Negotiate the objectives and resources  
+,Manage the departmental budget  
+,Establish and monitor management information 
+,Analyse and propose solutions for the continuous productivity  
+,improvement  
+,Manage the implementation and monitoring of IS quality assurance and 
+,security  
+,Communicate with internal business departments and project owners  
+e-competences ,D.9. Personnel Development Level 4 
+(from e-CF) ,
+,E.3. Risk Management Level 3 
+,E.6. ICT Quality Management Level 3 
+,E.7. Business Change Management Level 4 
+,E.8. Information Security Management Level 3 
+KPI area ,Optimization of overall resources 
+Profile title ,ICT SECURITY MANAGER(11) 
+Summary statement  ,Manages the Information System security policy.  
+Mission ,Defines the Information System security policy. Manages security 
+,deployment across all Information Systems. Ensures the provision of 
+,information availability. Recognized as the ICT security policy expert by 
+,internal and external stakeholders. 
+Deliverables  ,Accountable Responsible Contributor 
+, Information security  Knowledge or  Risk Management 
+,policy  Information base policy 
+, Information security  New technology 
+,strategy integration proposal 
+, ICT Strategy & 
+,implementation 
+Main task/s ,Define and implement procedures linked to IS security 
+,Contribute to the development of the organization’s security policy 
+,Establish the prevention plan 
+,Inform and raise awareness among general management 
+,Ensure the promotion of the IT security charter among users 
+,Inspect and ensure that principles and rules for IS security are applied  
+e-competences ,A.7. Technology Trend Monitoring Level 4 
+(from e-CF) ,
+,D.1. Information Security Strategy Development Level 5 
+,E.3. Risk Management Level 3 
+,E.9. IS Governance Level 4 
+,E.8. Information Security Management Level 4 
+KPI area ,Security Policy effectiveness
+Trend Monitorin,
+Profile title ,ICT SECURITY SPECIALIST(12) 
+Summary statement  ,Ensures the implementation of the organizations security policy.  
+Mission ,"Proposes and implements necessary security updates. Advises, supports, "
+,informs and provides training and security awareness. Takes direct action 
+,on all or part of a network or system. Is recognized as the ICT technical 
+,security expert by peers. 
+Deliverables  ,Accountable Responsible Contributor 
+, Knowledge or  New technology  Risk Management policy 
+,Information base integration  Risk Management Plan  
+,(Security) proposal (Security)  Information security policy 
+Main task/s , Ensure security and appropriate use of ICT resources 
+," Evaluate risks, threats and consequences "
+, Provide security training and education 
+, Provide technical validation of security tools 
+, Contribute to definition of security standards 
+, Audit security vulnerability 
+, Monitor security developments to ensure data and physical security of 
+,the ICT resources  
+e-competences ,C.2 Change Support Level 3 
+(from e-CF) ,
+,C.3 Service DeliveryLevel 3 
+,D.9 Personnel DevelopmentLevel 3 
+,D.10. Information and Knowledge ManagementLevel 3 
+,E.8 Information Security ManagementLevel 3-4 
+KPI area ,Security measures in place 
+Profile title ,ICT TRAINER(13) 
+Summary statement  ,Educates and trains ICT professionals and practitioners to reach predefined 
+,standards of ICT technical/ business competence.  
+Mission ,Provide the knowledge and skills required to ensure that students are able 
+,to effectively perform tasks in the workplace. 
+Deliverables  ,Accountable Responsible Contributor 
+Profile title ,NETWORK SPECIALIST(14) 
+Summary statement ,"Ensures the alignment of the network, including telecommunication and/or "
+,computer infrastructure to meet the organization’s communication needs.
+Mission ,"Manages and operates a networked information system, solving problems "
+,and faults to ensure defined service levels. Monitors and improves network 
+,performances. 
+Deliverables  ,Accountable Responsible Contributor 
+, Network Solution  Solved Incident 
+,Documentation 
+, Network Solution 
+,in Operation 
+, Network Solution 
+,Specification 
+Profile title ,PROJECT MANAGER(15) 
+Summary statement  ,Manages projects to achieve optimal performance conforming to original 
+,specifications. 
+Mission ,"Defines, implements and manages projects from conception to final "
+,"delivery. Responsible for achieving optimal results, conforming to standards "
+,"for quality, safety and sustainability and complying with defined scope, "
+,"performance, costs, and schedule.  "
+Deliverables  ,Accountable Responsible Contributor 
+, Project Plan  Solution  Quality Plan 
+, Validated solution documentation  Integrated Solution 
+Main task/s ,"Organize, coordinate and lead the project team "
+,Supervise project progress 
+,"Coordinate, record and ensure quality compliance  "
+,Circulate and distribute information from the project owner 
+,Implement the new application or service 
+,Plan maintenance and user support 
+,Ensure specification compliance 
+,Comply with budgets and delivery times  
+,Update the project according to changing circumstances  
+e-competences ,A.4. Product/ Service PlanningLevel 4 
+(from e-CF) ,
+,E.2. Project and Portfolio ManagementLevel 4 
+,E.3. Risk ManagementLevel 3 
+,E.4. Relationship ManagementLevel 3 
+,E.7. Business Change ManagementLevel 3 
+KPI area ,Project scope achievement 
+/ Servic,
+Profile title ,QUALITY ASSURANCE MANAGER(16) 
+Summary statement  ,Ensures that Information Systems are delivered according to organizational 
+,"policies (quality, risks, Service Level Agreement). "
+Mission ,Establishes and operates an ICT quality approach compliant with the 
+,organization’s culture. Ensures that management controls are correctly 
+,"implemented to safeguard assets, data integrity and operations. Is focused "
+,and committed to the achievement of quality goals and monitors statistics 
+,to forecast quality outcomes. 
+Deliverables ,Accountable Responsible Contributor 
+, Audit report  Quality performance  Quality assurance 
+,indicators  ICT quality policy 
+, Risk management 
+,policy 
+, Information security 
+,policy 
+Main task/s ,Establish and deploy the ICT quality policy  
+,Organize and provide quality training 
+,Provide ICT managers with quality performance indicators 
+,Perform quality audits 
+,Organize customer satisfaction surveys 
+,Assist project team members to build and perform project quality plans  
+e-competences ,D.2. ICT Quality Strategy DevelopmentLevel 4-5 
+(from e-CF) ,
+,E.3. Risk Management Level 3 
+,E.5. Process Improvement Level 3 
+,E.6. ICT Quality Management Level 4 
+KPI area ,Achievement of company quality goals 
+Profile title ,SERVICE DESK AGENT(17) 
+Summary statement ,Provides first line telephone or e-mail support to internal or external clients 
+,with technical issues. 
+Mission ,To provide user support and troubleshoot ICT problems and issues. The 
+,primary objective is to enable users to maximize their productivity through 
+,efficient use of ICT equipment or software applications. 
+Deliverables  ,Accountable Responsible Contributor 
+, First level Support  Solved Incident 
+Main task/s , Identify and diagnose issues and problems 
+, Categorize and record reported queries and provide solutions 
+, Support problem identification 
+, Advise users on appropriate course of action 
+, Monitor issues from start to resolution 
+, Escalate unresolved problems to higher levels of support 
+e-competences ,C.1. User SupportLevel 2 
+(from e-CF) ,
+,C.3. Service Delivery Level 1 
+,C.4. Problem ManagementLevel 2 
+KPI area ,Responsiveness and accuracy of solution provision for specific problem 
+Profile title ,SERVICE MANAGER(18) 
+Summary statement ,"Plans, implements and manages solution provision. "
+Mission ,"Manages the definition of Service Level Agreements (SLAs), Operational "
+,Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs). 
+,Negotiates contracts with the various business domains or customers and 
+,in alignment with the Business IS Manager. Man manages the staff who 
+,"monitor, report and fulfil the SLAs. "
+,Takes mitigation action in case of non-fulfilment of agreements. 
+,Contributes to the development of the maintenance budget together with 
+,business/finance organisations. 
+Deliverables ,Accountable Responsible Contributor 
+, Solution in  Service Level  Quality Performance 
+,Operation Agreement Indicators 
+, Solved incident  Technical Proposal 
+Main task/s , Define Service requirements 
+, Negotiate SLA / OLA  
+, Manage solution operation 
+, Provide service delivery 
+e-competences ,A.2. Service Level ManagementLevel 4 
+(from e-CF) ,
+,C.3. Service DeliveryLevel 3 
+,C.4. Problem ManagementLevel 4 
+,D.8. Contract ManagementLevel 4 
+,D.9. Personnel DevelopmentLevel 3 
+KPI area ,Fulfillment of Service Levels 
+Fulfillment of Service Level,
+Profile title ,SYSTEMS ADMINSTRATOR(19) 
+Summary statement ,Administers ICT System components to meet service requirements.  
+Mission ,"Installs software, configures and upgrades ICT systems. Administers day-to-"
+,"day operations to satisfy continuity of service, recovery, security and "
+,performance needs.  
+Deliverables  ,Accountable Responsible Contributor 
+, Solution in  Solved Incident 
+,Operation 
+Main task/s ," Investigate, diagnose and solve system related problems "
+, Install and upgrades software 
+," Schedule installation work, liaising with all concerned to ensure that "
+,installation priorities are met and disruption to the organization is 
+,minimized.  
+, Diagnose and solve problems and faults occurring in the operation of 
+,hardware and software 
+, Comply with organization procedures to ensure integrity of the system 
+e-competences ,B.2. Component Integration Level 2 
+(from e-CF) ,
+,B.3. Testing Level 2 
+,C.1. User Support Level 2-3 
+,C.4. Problem Management Level 2 
+,E.8. Information Security Management Level 2 
+KPI area ,Systems in operation 
+Componen,
+Profile title ,SYSTEMS ANALYST(20) 
+Summary statement ,Analyses requirements and specifies software and systems. 
+Mission ,Ensures the technical design and contributes to implementation of new 
+,software and/or enhancements. 
+Deliverables  ,Accountable Responsible Contributor 
+, Software Needs  Integrated Solution  ICT Process definition 
+,Assessment  Technical Proposal  ICT Model 
+, Solution Specification 
+Main task/s , Recommend resolutions and improvements  
+, Provide integrated solutions 
+, Provide consolidate findings on components or processes 
+e-competences ,A.5. Architecture Design Level 3 
+(from e-CF) ,
+,E.5. Process Improvement Level 3-4 
+,B.6. Systems Engineering Level 3-4 
+KPI area ,Fully functional ICT applications  
+B.6. Systems Engineerin,
+Profile title ,SYSTEMS ARCHITECT(21)  
+Summary statement ,Plans and is accountable for the implementation and integration of software 
+,and/ or ICT systems. 
+Mission ,"Designs, integrates and implements complex ICT solutions from a technical "
+,"perspective. Ensures, that technical solutions, procedures and models for "
+,development are up-to-date and comply with standards. Watches 
+,technology development and integrates into new solutions. Acts as a team 
+,leader for developers and technical experts.  
+Deliverables  ,Accountable Responsible Contributor 
+, Solution  New technology  Development 
+,Specification integration proposal process 
+, Integrated Solution 
+Main task/s ," Analyse technology, business and technical requirements "
+, Specify and implement complex ICT solutions 
+, Lead development and integration of components 
+, Lead and/ or conduct system integration 
+e-competences ,A.5. Architecture Design Level 4 
+(from e-CF) ,
+,A.7. Technology Trend Monitoring Level 4-5 
+,B.6. Systems Engineering Level 4-5 
+,B.2. Component integration Level 4 
+,A.9. Innovating Level 4 
+KPI area ,Effectiveness and efficiency of solution implementation  
+Trend Monitorin,
+B.6. Systems Engineerin,
+A.9. Innovatin,
+Level ,
+Profile title ,TECHNICAL SPECIALIST(22) 
+Summary statement  ,Maintains and repairs hardware and software on client premises.  
+Mission ,To effectively maintain customer hardware/software. Responsible for 
+,delivering timely and effective repairs to ensure optimal system 
+,performance and superior customer satisfaction.  
+Deliverables  ,Accountable Responsible Contributor 
+, Solved Incident  Up –to-date Solution  Solution 
+,Documentation 
+Main task/s , Identify software and hardware problems and repair 
+, Perform regular maintenance on hardware and software components 
+, Install cables and configures hardware and software  
+, Document system addresses and configurations  
+, Run diagnostic programs or use test equipment to locate source of 
+,problems 
+, Communicate effectively with end users and customer management 
+, Maintain security and functionality through application of program 
+,temporary fixes 
+e-competences ,C.2. Change SupportLevel 3 
+(from e-CF) ,
+,C.3. Service DeliveryLevel 2 
+,C.4. Problem ManagementLevel 3 
+KPI area ,Efficiency and speed of problem resolution 
+Profile title ,TEST SPECIALIST(23) 
+Summary statement ,Designs and performs testing plans. 
+Mission ,Contributes to correctness and completeness of a system ensuring that 
+,solutions meet technical and user requirements. Contributes in different 
+,"areas of systems development, testing system functionality, identifying "
+,anomalies and diagnosing possible causes. 
+Deliverables  ,Accountable Responsible Contributor 
+, Test Plan Integrated Solution 
+, Test Procedure  Validated Solution  
+, Test Result  Solution Documentation 
+Main task/s , Select and develop integration testing techniques to ensure the system 
+,meets requirements.  
+," Design and customize integration tests, identify open issues.  "
+, Develop test plans and procedures for white and black box testing at 
+,"unit, module, system and integration levels.  "
+, Establish procedures for result analysis and reporting. 
+, Design and implement defect tracking and correction procedures 
+, Write test program to assess software quality 
+, Develop tools to increase test effectiveness. 
+e-competences ,B.1. Application Development Level 3-4 
+(from e-CF) ,
+,B.2. Component  Integration Level 2-3 
+,B.3. Testing Level 2-3 
+,B.4. Solution Deployment Level 3 
+,C.4. Problem Management Level 2-3 
+KPI area ,Consistency of the test plan according to the quality plan of the project 
+Application,
+Componen,
