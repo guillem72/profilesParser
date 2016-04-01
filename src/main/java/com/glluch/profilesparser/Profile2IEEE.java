@@ -31,7 +31,7 @@ import org.apache.jena.rdf.model.Model;
  */
 public class Profile2IEEE {
     public static ArrayList<String> doit(ICTProfile p) {
-    ArrayList<String> res=new ArrayList<>();
+    ArrayList<String> res;
     FindTerms finder=new FindTerms();
         //FindTerms.vocabulary=labels;
         FindTerms.vocabulary=BuildVocabulary.get();

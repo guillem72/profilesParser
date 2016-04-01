@@ -39,7 +39,13 @@ public class ICTProfile {
                 ",\n kpi=" + kpi + ",\n ecfs=" + ecfs.toString() + '}';
     }
 
-    
+    public String getCompenteCodes(){
+        String res="";
+        for (ECFMap ecf:ecfs){
+            res+=ecf.getCode()+" ";
+        }
+        return res.trim();
+    }
     
     
     public String getTitle() {
@@ -72,6 +78,7 @@ public class ICTProfile {
 
     public void setTasks(ArrayList<String> tasks) {
         this.tasks = tasks;
+        
     }
 
     public String getKpi() {

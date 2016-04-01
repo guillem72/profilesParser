@@ -15,6 +15,8 @@
  */
 package com.glluch.profilesparser;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Guillem LLuch Moll guillem72@gmail.com
@@ -24,7 +26,27 @@ public class ECFMap {
         private String code;
         private String text;
         private String level;
+        private String allTxt;
+        private ArrayList<String> ieee_terms;
 
+    public ArrayList<String> getIeee_terms() {
+        return ieee_terms;
+    }
+
+    public void setIeee_terms(ArrayList<String> ieee_terms) {
+        this.ieee_terms = ieee_terms;
+    }
+    
+        
+        public String getAllTxt() {
+        return allTxt;
+    }
+
+    public void setAllTxt(String allTxt) {
+        this.allTxt = allTxt;
+    }
+
+        
         public ECFMap(String code, String text, String level) {
             this.code = code;
             this.text = text;
@@ -37,9 +59,13 @@ public class ECFMap {
 
     @Override
     public String toString() {
-        return "ECFMap{" + "code=" + code + ", text=" + text + ", level=" + level + '}';
+        String res= "ECFMap{" + "code=" + code + ", text=" + text + ", level=" + level + '}';
+        return res;
     }
 
+    public String toString(boolean ext){
+        return toString();
+    }
    
         
         
