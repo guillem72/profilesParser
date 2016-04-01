@@ -1,4 +1,5 @@
 package com.glluch.profilesparser;
+import com.glluch.findterms.BuildVocabulary;
 import com.glluch.findterms.DataMapper;
 import com.glluch.findterms.FindTerms;
 import com.glluch.findterms.RDFReader;
@@ -31,22 +32,9 @@ import org.apache.jena.rdf.model.Model;
 public class Profile2IEEE {
     public static ArrayList<String> doit(ICTProfile p) {
     ArrayList<String> res=new ArrayList<>();
-    RDFReader lector = new RDFReader();
-        String filename;
-        
-        filename="resources/IEEE_reasoner20022016.owl";
-       
-        Model model;
-        model = lector.reader(filename);
-        //test getallterms
-        
-        DataMapper dm=new DataMapper();
-        dm.setModel(model);
-        ArrayList<String> labels=dm.getAllLabels();
-        //System.out.println(labels.size());
-        
-        FindTerms finder=new FindTerms();
-        FindTerms.vocabulary=labels;
+    FindTerms finder=new FindTerms();
+        //FindTerms.vocabulary=labels;
+        FindTerms.vocabulary=BuildVocabulary.get();
         String doc="";
         doc+=p.getTitle()+" "+p.getSummary()+" "+p.getMission().plainString();
         doc+=" "+p.plainTasks()+" "+p.getKpi();
