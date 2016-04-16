@@ -1,13 +1,10 @@
 package com.glluch.profilesparser;
-import com.glluch.findterms.BuildVocabulary;
-import com.glluch.findterms.DataMapper;
+import com.glluch.findterms.Vocabulary;
 import com.glluch.findterms.FindTerms;
-import com.glluch.findterms.RDFReader;
-import java.io.File;
-import java.io.IOException;
+import com.glluch.findterms.Surrogate;
 import java.util.ArrayList;
-import org.apache.commons.io.FileUtils;
-import org.apache.jena.rdf.model.Model;
+import java.util.HashMap;
+import java.util.Set;
 
 /*
  * Copyright 2016 Guillem LLuch Moll guillem72@gmail.com.
@@ -30,11 +27,59 @@ import org.apache.jena.rdf.model.Model;
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public class Profile2IEEE {
+        public static double term_boost=2.0;
+        public static double related_boost=1.0;
+    
+        public static HashMap<String,Double> fillTerms(ICTProfile p) {
+    HashMap<String,Integer> res;
+    FindTerms finder=new FindTerms();
+        //FindTerms.vocabulary=labels;
+        FindTerms.vocabulary=Vocabulary.get();
+        //HashMap<String,Integer> foundAndCount
+        String doc="";
+        doc+=p.getTitle()+" "+p.getSummary()+" "+p.getMission().plainString();
+        doc+=" "+p.plainTasks()+" "+p.getKpi();
+        //System.out.println(doc);
+        res=finder.foundAndCount(doc);
+       p.setPtermsI2D(res);
+       ArrayList <String> pterms=p.onlyTerms();
+       Surrogate surro=new Surrogate(Vocabulary.jenaModel);
+       HashMap<String, ArrayList<String>> rtermsRaw=surro.surrogatesForeach(pterms);
+       HashMap <String,Double> rterms=preIntersect(p.getPterms(),rtermsRaw);
+       p.setRterms(rterms);
+      HashMap<String,Double>  res1=com.glluch.utils.JMap.intersectAndSum(p.getPterms(),p.getRterms());
+        return res1;
+}
+        private static HashMap <String,Double> preIntersect(HashMap<String,Double> weights, HashMap<String, ArrayList<String>> rterms){
+            HashMap <String,Double> res=new HashMap <>();
+            Set keys=rterms.keySet();
+            for (Object key0:keys){
+                String key=(String) key0;
+                double value0=weights.get(key);
+                double value=value0*related_boost;
+                if (res.isEmpty()) res=forEach(rterms.get(key),value);
+                else{
+                    res=com.glluch.utils.JMap.intersectAndSum(res,forEach(rterms.get(key),value));
+                }
+                
+            }
+            return res;
+        }
+        
+        private static HashMap <String,Double> forEach(ArrayList <String> rterms,double val){
+        HashMap <String,Double> res=new HashMap <>();
+        for (String t:rterms){
+            res.put(t,val);
+        }
+        return res;
+        }
+    
+    
     public static ArrayList<String> doit(ICTProfile p) {
     ArrayList<String> res;
     FindTerms finder=new FindTerms();
         //FindTerms.vocabulary=labels;
-        FindTerms.vocabulary=BuildVocabulary.get();
+        FindTerms.vocabulary=Vocabulary.get();
         String doc="";
         doc+=p.getTitle()+" "+p.getSummary()+" "+p.getMission().plainString();
         doc+=" "+p.plainTasks()+" "+p.getKpi();

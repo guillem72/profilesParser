@@ -49,6 +49,11 @@
             <artifactId>jsolr</artifactId>
             <version>28032016</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Utils</artifactId>
+            <version>10042016</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

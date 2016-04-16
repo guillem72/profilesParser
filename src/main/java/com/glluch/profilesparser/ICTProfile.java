@@ -17,7 +17,8 @@ package com.glluch.profilesparser;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.logging.Logger;
+import java.util.Set;
+import org.apache.commons.lang3.math.NumberUtils;
 
 /**
  *
@@ -31,7 +32,13 @@ public class ICTProfile {
     private ArrayList<String> tasks;
     private String kpi;
     private ArrayList<ECFMap> ecfs=new ArrayList<>();
-
+    protected HashMap <String,Double> pterms=new HashMap <>();
+    protected HashMap <String, Double> rterms=new HashMap <>();
+    
+    public String compentences(){
+        return ecfs.toString();
+    }
+    
     @Override
     public String toString() {
         return "ICTProfile{" + "title=" + title + ",\n summary=" + summary + 
@@ -39,6 +46,42 @@ public class ICTProfile {
                 ",\n kpi=" + kpi + ",\n ecfs=" + ecfs.toString() + '}';
     }
 
+    public ArrayList <String> onlyTerms(){
+        ArrayList <String> res=new ArrayList <>();
+        res.addAll(pterms.keySet());
+        return res;
+    }
+    
+    
+    public HashMap<String,Double> getPterms() {
+        return pterms;
+    }
+
+    public void setPterms(HashMap<String, Double> pterms) {
+        this.pterms = pterms;
+    }
+    
+    public void setPtermsI2D(HashMap<String, Integer> pterms) {
+        Set keys=pterms.keySet();
+        for(Object key0:keys){
+            String key=(String)key0;
+            this.pterms.put(key, NumberUtils.createDouble(pterms.get(key).toString()));
+           
+        }
+        
+    }
+
+    public HashMap<String, Double> getRterms() {
+        return rterms;
+    }
+
+    public void setRterms(HashMap<String,Double> rterms) {
+        this.rterms = rterms;
+    }
+
+    
+    
+    
     public String getCompenteCodes(){
         String res="";
         for (ECFMap ecf:ecfs){
