@@ -29,7 +29,18 @@ import java.util.Set;
 public class Profile2IEEE {
         public static double term_boost=2.0;
         public static double related_boost=1.0;
-    
+        public static int radio=1;
+
+    public static int getRadio() {
+        return radio;
+    }
+
+    public static void setRadio(int radio) {
+        Profile2IEEE.radio = radio;
+    }
+        
+        
+        
         public static HashMap<String,Double> fillTerms(ICTProfile p) {
     HashMap<String,Integer> res;
     FindTerms finder=new FindTerms();
@@ -43,7 +54,7 @@ public class Profile2IEEE {
         res=finder.foundAndCount(doc);
        p.setPtermsI2D(res);
        ArrayList <String> pterms=p.onlyTerms();
-       Surrogate surro=new Surrogate(Vocabulary.jenaModel);
+       Surrogate surro=new Surrogate(Vocabulary.jenaModel,radio);
        HashMap<String, ArrayList<String>> rtermsRaw=surro.surrogatesForeach(pterms);
        HashMap <String,Double> rterms=preIntersect(p.getPterms(),rtermsRaw);
        p.setRterms(rterms);

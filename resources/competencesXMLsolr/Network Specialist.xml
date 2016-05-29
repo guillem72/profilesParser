@@ -1,1 +1,60 @@
-<add><doc><field name="id">Network Specialist</field><field name="type">ICT_profile</field><field name="term"  boost="2.0">regression analysis</field><field name="term"  boost="2.0">engineering management</field><field name="term"  boost="2.0">human resource management</field><field name="term"  boost="4.0">random number generation</field><field name="term"  boost="2.0">marketing management</field><field name="term"  boost="2.0">customer relationship management</field><field name="term"  boost="4.0">authorization</field><field name="term"  boost="2.0">business process re-engineering</field><field name="term"  boost="2.0">pareto analysis</field><field name="term"  boost="2.0">parameter estimation</field><field name="term"  boost="2.0">adaptive estimation</field><field name="term"  boost="2.0">project management</field><field name="term"  boost="2.0">least squares approximations</field><field name="term"  boost="2.0">sampling methods</field><field name="term"  boost="2.0">histograms</field><field name="term"  boost="2.0">documentation</field><field name="term"  boost="2.0">lead time reduction</field><field name="term"  boost="2.0">prediction theory</field><field name="term"  boost="2.0">risk analysis</field><field name="term"  boost="2.0">least squares methods</field><field name="term"  boost="2.0">frequency estimation</field><field name="term"  boost="2.0">time of arrival estimation</field><field name="term"  boost="2.0">boltzmann distribution</field><field name="term"  boost="2.0">correlation</field><field name="term"  boost="2.0">research and development management</field><field name="term"  boost="2.0">supply chain management</field><field name="term"  boost="2.0">inventory management</field><field name="term"  boost="2.0">compressed sensing</field><field name="term"  boost="4.0">public key</field><field name="term"  boost="2.0">cause effect analysis</field><field name="term"  boost="2.0">amplitude estimation</field><field name="term"  boost="2.0">monte carlo methods</field><field name="term"  boost="4.0">firewalls</field><field name="term"  boost="6.0">intrusion detection</field><field name="term"  boost="2.0">public relations</field><field name="term"  boost="4.0">encryption</field><field name="term"  boost="2.0">writing</field><field name="term"  boost="4.0">ciphers</field><field name="term"  boost="2.0">mode matching methods</field><field name="term"  boost="2.0">linear discriminant analysis</field><field name="term"  boost="2.0">correlation coefficient</field><field name="term"  boost="4.0">identity management systems</field><field name="term"  boost="2.0">business</field><field name="term"  boost="2.0">parametric statistics</field><field name="term"  boost="2.0">organizational aspects</field><field name="term"  boost="2.0">gaussian mixture model</field><field name="term"  boost="6.0">information security</field><field name="term"  boost="2.0">autoregressive processes</field><field name="term"  boost="2.0">higher order statistics</field><field name="term"  boost="4.0">computer security</field><field name="term"  boost="2.0">quality management</field><field name="term"  boost="4.0">message authentication</field><field name="term"  boost="4.0">computer hacking</field><field name="term"  boost="2.0">best practices</field><field name="term"  boost="2.0">business continuity</field><field name="term"  boost="4.0">digital signatures</field><field name="term"  boost="2.0">ranking</field><field name="term"  boost="2.0">statistical analysis</field><field name="term"  boost="2.0">statistics</field><field name="term"  boost="2.0">resource management</field><field name="term"  boost="2.0">time series analysis</field><field name="term"  boost="4.0">invasive software</field><field name="term"  boost="2.0">information sharing</field><field name="term"  boost="2.0">asset management</field><field name="term"  boost="4.0">industry applications</field><field name="term"  boost="2.0">competitive intelligence</field><field name="term"  boost="2.0">minimax techniques</field><field name="term"  boost="2.0">content management</field><field name="term"  boost="2.0">storage management</field><field name="term"  boost="2.0">phase estimation</field><field name="term"  boost="2.0">governmental factors</field><field name="term"  boost="4.0">access control</field><field name="term"  boost="2.0">mean square error methods</field><field name="term"  boost="2.0">document handling</field><field name="term"  boost="2.0">nonuniform sampling</field><field name="term"  boost="4.0">cryptography</field><field name="term"  boost="2.0">contingency management</field><field name="term"  boost="2.0">production management</field><field name="term"  boost="2.0">professional communication</field><field name="term"  boost="2.0">outsourcing</field><field name="term"  boost="2.0">decision making</field><field name="term"  boost="2.0">least mean squares methods</field><field name="term"  boost="2.0">mathematics</field><field name="term"  boost="2.0">process planning</field><field name="term"  boost="2.0">root mean square</field><field name="term"  boost="2.0">logistics</field><field name="term"  boost="2.0">enterprise resource planning</field><field name="term"  boost="2.0">direction-of-arrival estimation</field><field name="term"  boost="2.0">contracts</field><field name="term"  boost="2.0">knowledge management</field><field name="term"  boost="2.0">maximum likelihood estimation</field><field name="term"  boost="4.0">security</field><field name="term"  boost="2.0">analysis of variance</field><field name="term"  boost="4.0">computer crime</field><field name="term"  boost="2.0">motion estimation</field><field name="term"  boost="4.0">authentication</field><field name="term"  boost="2.0">covariance matrices</field><field name="term"  boost="2.0">information management</field><field name="term"  boost="4.0">data security</field><field name="term"  boost="2.0">facilities management</field><field name="term"  boost="4.0">permission</field><field name="term"  boost="2.0">communication system operations and management</field><field name="term"  boost="2.0">international collaboration</field><field name="term"  boost="2.0">autocorrelation</field><field name="term"  boost="2.0">control charts</field><field name="term"  boost="2.0">knowledge transfer</field><field name="term"  boost="2.0">lattice boltzmann methods</field><field name="term"  boost="2.0">management</field><field name="term"  boost="2.0">financial management</field><field name="term"  boost="2.0">production planning</field><field name="term"  boost="2.0">innovation management</field><field name="term"  boost="2.0">principal component analysis</field><field name="competence_" >B.1 2</field><field name="competence_" >B.1 3</field><field name="competence_" >B.2 2</field><field name="competence_" >B.2 3</field><field name="competence_" >B.4 2</field><field name="competence_" >B.4 3</field><field name="competence_" >C.4 2</field><field name="competence_" >C.4 3</field><field name="competence_" >E.8 2</field></doc></add>
+<add><doc>
+<field name="id">
+Network Specialist</field>
+<field name="type">ICT_profile</field>
+<field name="term"  boost="4.0">invasive software</field>
+<field name="term"  boost="2.0">least mean squares methods</field>
+<field name="term"  boost="2.0">compressed sensing</field>
+<field name="term"  boost="4.0">public key</field>
+<field name="term"  boost="2.0">mathematics</field>
+<field name="term"  boost="2.0">amplitude estimation</field>
+<field name="term"  boost="2.0">regression analysis</field>
+<field name="term"  boost="2.0">monte carlo methods</field>
+<field name="term"  boost="4.0">firewalls</field>
+<field name="term"  boost="4.0">industry applications</field>
+<field name="term"  boost="4.0">intrusion detection</field>
+<field name="term"  boost="2.0">engineering management</field>
+<field name="term"  boost="2.0">direction-of-arrival estimation</field>
+<field name="term"  boost="4.0">random number generation</field>
+<field name="term"  boost="4.0">authorization</field>
+<field name="term"  boost="2.0">phase estimation</field>
+<field name="term"  boost="4.0">security</field>
+<field name="term"  boost="2.0">pareto analysis</field>
+<field name="term"  boost="4.0">encryption</field>
+<field name="term"  boost="2.0">analysis of variance</field>
+<field name="term"  boost="4.0">computer crime</field>
+<field name="term"  boost="2.0">writing</field>
+<field name="term"  boost="4.0">ciphers</field>
+<field name="term"  boost="2.0">motion estimation</field>
+<field name="term"  boost="2.0">parameter estimation</field>
+<field name="term"  boost="2.0">mode matching methods</field>
+<field name="term"  boost="4.0">authentication</field>
+<field name="term"  boost="4.0">identity management systems</field>
+<field name="term"  boost="2.0">least squares approximations</field>
+<field name="term"  boost="2.0">business</field>
+<field name="term"  boost="2.0">nonuniform sampling</field>
+<field name="term"  boost="2.0">gaussian mixture model</field>
+<field name="term"  boost="2.0">documentation</field>
+<field name="term"  boost="4.0">information security</field>
+<field name="term"  boost="4.0">cryptography</field>
+<field name="term"  boost="4.0">permission</field>
+<field name="term"  boost="2.0">frequency estimation</field>
+<field name="term"  boost="2.0">autocorrelation</field>
+<field name="term"  boost="2.0">professional communication</field>
+<field name="term"  boost="2.0">time of arrival estimation</field>
+<field name="term"  boost="2.0">lattice boltzmann methods</field>
+<field name="term"  boost="2.0">management</field>
+<field name="term"  boost="4.0">message authentication</field>
+<field name="term"  boost="4.0">computer hacking</field>
+<field name="term"  boost="2.0">principal component analysis</field>
+<field name="term"  boost="2.0">statistics</field>
+<field name="competence_" >B.1 2</field>
+<field name="competence_" >B.1 3</field>
+<field name="competence_" >B.2 2</field>
+<field name="competence_" >B.2 3</field>
+<field name="competence_" >B.4 2</field>
+<field name="competence_" >B.4 3</field>
+<field name="competence_" >C.4 2</field>
+<field name="competence_" >C.4 3</field>
+<field name="competence_" >E.8 2</field>
+</doc></add>

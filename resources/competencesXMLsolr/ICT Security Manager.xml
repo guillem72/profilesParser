@@ -1,1 +1,100 @@
-<add><doc><field name="id">ICT Security Manager</field><field name="type">ICT_profile</field><field name="term"  boost="8.0">engineering management</field><field name="term"  boost="4.0">human resource management</field><field name="term"  boost="18.0">random number generation</field><field name="term"  boost="4.0">marketing management</field><field name="term"  boost="4.0">customer relationship management</field><field name="term"  boost="2.0">digital-analog conversion</field><field name="term"  boost="2.0">audio compression</field><field name="term"  boost="18.0">authorization</field><field name="term"  boost="4.0">business process re-engineering</field><field name="term"  boost="2.0">computers and information processing</field><field name="term"  boost="2.0">adaptive coding</field><field name="term"  boost="2.0">data preprocessing</field><field name="term"  boost="2.0">data compression</field><field name="term"  boost="4.0">project management</field><field name="term"  boost="2.0">merging</field><field name="term"  boost="2.0">portals</field><field name="term"  boost="4.0">lead time reduction</field><field name="term"  boost="4.0">risk analysis</field><field name="term"  boost="4.0">research and development management</field><field name="term"  boost="4.0">supply chain management</field><field name="term"  boost="2.0">sonification</field><field name="term"  boost="2.0">virtual enterprises</field><field name="term"  boost="2.0">data handling</field><field name="term"  boost="4.0">inventory management</field><field name="term"  boost="2.0">data integration</field><field name="term"  boost="2.0">cognitive informatics</field><field name="term"  boost="2.0">information processing</field><field name="term"  boost="18.0">public key</field><field name="term"  boost="4.0">cause effect analysis</field><field name="term"  boost="2.0">analog-digital conversion</field><field name="term"  boost="2.0">reliability</field><field name="term"  boost="2.0">data storage systems</field><field name="term"  boost="18.0">firewalls</field><field name="term"  boost="28.0">intrusion detection</field><field name="term"  boost="2.0">availability</field><field name="term"  boost="4.0">public relations</field><field name="term"  boost="2.0">query processing</field><field name="term"  boost="2.0">prom</field><field name="term"  boost="18.0">encryption</field><field name="term"  boost="2.0">electronic design automation and methodology</field><field name="term"  boost="18.0">ciphers</field><field name="term"  boost="2.0">data acquisition</field><field name="term"  boost="6.0">information systems</field><field name="term"  boost="2.0">distributed information systems</field><field name="term"  boost="20.0">identity management systems</field><field name="term"  boost="2.0">art</field><field name="term"  boost="2.0">source coding</field><field name="term"  boost="8.0">business</field><field name="term"  boost="2.0">test data compression</field><field name="term"  boost="4.0">organizational aspects</field><field name="term"  boost="2.0">data processing</field><field name="term"  boost="28.0">information security</field><field name="term"  boost="2.0">fastbus</field><field name="term"  boost="2.0">technology transfer</field><field name="term"  boost="18.0">computer security</field><field name="term"  boost="2.0">text processing</field><field name="term"  boost="4.0">quality management</field><field name="term"  boost="2.0">information exchange</field><field name="term"  boost="18.0">message authentication</field><field name="term"  boost="18.0">computer hacking</field><field name="term"  boost="4.0">best practices</field><field name="term"  boost="2.0">data systems</field><field name="term"  boost="4.0">business continuity</field><field name="term"  boost="2.0">data transfer</field><field name="term"  boost="18.0">digital signatures</field><field name="term"  boost="4.0">resource management</field><field name="term"  boost="18.0">invasive software</field><field name="term"  boost="2.0">data conversion</field><field name="term"  boost="6.0">information sharing</field><field name="term"  boost="2.0">electronic medical records</field><field name="term"  boost="4.0">asset management</field><field name="term"  boost="22.0">industry applications</field><field name="term"  boost="2.0">graphics</field><field name="term"  boost="6.0">competitive intelligence</field><field name="term"  boost="4.0">content management</field><field name="term"  boost="4.0">storage management</field><field name="term"  boost="2.0">technology social factors</field><field name="term"  boost="4.0">governmental factors</field><field name="term"  boost="2.0">technological innovation</field><field name="term"  boost="18.0">access control</field><field name="term"  boost="2.0">publish-subscribe</field><field name="term"  boost="6.0">document handling</field><field name="term"  boost="2.0">multimedia databases</field><field name="term"  boost="2.0">appropriate technology</field><field name="term"  boost="18.0">cryptography</field><field name="term"  boost="2.0">management information systems</field><field name="term"  boost="4.0">contingency management</field><field name="term"  boost="2.0">data engineering</field><field name="term"  boost="4.0">production management</field><field name="term"  boost="6.0">professional communication</field><field name="term"  boost="2.0">biomedical informatics</field><field name="term"  boost="2.0">associative processing</field><field name="term"  boost="4.0">outsourcing</field><field name="term"  boost="4.0">decision making</field><field name="term"  boost="2.0">image retrieval</field><field name="term"  boost="2.0">data warehouses</field><field name="term"  boost="2.0">data encapsulation</field><field name="term"  boost="2.0">image databases</field><field name="term"  boost="2.0">memory</field><field name="term"  boost="4.0">process planning</field><field name="term"  boost="4.0">logistics</field><field name="term"  boost="2.0">spreadsheet programs</field><field name="term"  boost="2.0">privacy</field><field name="term"  boost="4.0">enterprise resource planning</field><field name="term"  boost="4.0">contracts</field><field name="term"  boost="4.0">knowledge management</field><field name="term"  boost="2.0">deductive databases</field><field name="term"  boost="2.0">small business technology transfer</field><field name="term"  boost="22.0">security</field><field name="term"  boost="2.0">audio databases</field><field name="term"  boost="2.0">indexes</field><field name="term"  boost="18.0">computer crime</field><field name="term"  boost="2.0">sorting</field><field name="term"  boost="2.0">transform coding</field><field name="term"  boost="2.0">data assimilation</field><field name="term"  boost="2.0">information architecture</field><field name="term"  boost="2.0">user-generated content</field><field name="term"  boost="18.0">authentication</field><field name="term"  boost="2.0">design methodology</field><field name="term"  boost="2.0">data analysis</field><field name="term"  boost="2.0">social implications of technology</field><field name="term"  boost="10.0">information management</field><field name="term"  boost="2.0">huffman coding</field><field name="term"  boost="18.0">data security</field><field name="term"  boost="4.0">facilities management</field><field name="term"  boost="18.0">permission</field><field name="term"  boost="2.0">read only memory</field><field name="term"  boost="4.0">communication system operations and management</field><field name="term"  boost="2.0">medical information systems</field><field name="term"  boost="2.0">technology</field><field name="term"  boost="2.0">informatics</field><field name="term"  boost="2.0">data collection</field><field name="term"  boost="4.0">international collaboration</field><field name="term"  boost="4.0">control charts</field><field name="term"  boost="6.0">knowledge transfer</field><field name="term"  boost="8.0">management</field><field name="term"  boost="2.0">object oriented databases</field><field name="term"  boost="4.0">financial management</field><field name="term"  boost="4.0">production planning</field><field name="term"  boost="4.0">innovation management</field><field name="term"  boost="2.0">business data processing</field><field name="term"  boost="2.0">database systems</field><field name="competence_" >A.7 4</field><field name="competence_" >D.1 5</field><field name="competence_" >E.3 3</field><field name="competence_" >E.8 4</field><field name="competence_" >E.9 4</field></doc></add>
+<add><doc>
+<field name="id">
+ICT Security Manager</field>
+<field name="type">ICT_profile</field>
+<field name="term"  boost="18.0">invasive software</field>
+<field name="term"  boost="2.0">data conversion</field>
+<field name="term"  boost="2.0">information sharing</field>
+<field name="term"  boost="2.0">electronic medical records</field>
+<field name="term"  boost="22.0">industry applications</field>
+<field name="term"  boost="2.0">graphics</field>
+<field name="term"  boost="8.0">engineering management</field>
+<field name="term"  boost="18.0">random number generation</field>
+<field name="term"  boost="2.0">competitive intelligence</field>
+<field name="term"  boost="2.0">digital-analog conversion</field>
+<field name="term"  boost="2.0">audio compression</field>
+<field name="term"  boost="18.0">authorization</field>
+<field name="term"  boost="2.0">computers and information processing</field>
+<field name="term"  boost="2.0">publish-subscribe</field>
+<field name="term"  boost="2.0">adaptive coding</field>
+<field name="term"  boost="2.0">document handling</field>
+<field name="term"  boost="2.0">data preprocessing</field>
+<field name="term"  boost="2.0">data compression</field>
+<field name="term"  boost="2.0">merging</field>
+<field name="term"  boost="2.0">multimedia databases</field>
+<field name="term"  boost="2.0">portals</field>
+<field name="term"  boost="18.0">cryptography</field>
+<field name="term"  boost="2.0">data engineering</field>
+<field name="term"  boost="6.0">professional communication</field>
+<field name="term"  boost="2.0">biomedical informatics</field>
+<field name="term"  boost="2.0">associative processing</field>
+<field name="term"  boost="2.0">sonification</field>
+<field name="term"  boost="2.0">image retrieval</field>
+<field name="term"  boost="2.0">virtual enterprises</field>
+<field name="term"  boost="2.0">data handling</field>
+<field name="term"  boost="2.0">data integration</field>
+<field name="term"  boost="2.0">data warehouses</field>
+<field name="term"  boost="2.0">data encapsulation</field>
+<field name="term"  boost="2.0">cognitive informatics</field>
+<field name="term"  boost="2.0">image databases</field>
+<field name="term"  boost="2.0">memory</field>
+<field name="term"  boost="18.0">public key</field>
+<field name="term"  boost="2.0">analog-digital conversion</field>
+<field name="term"  boost="2.0">reliability</field>
+<field name="term"  boost="2.0">data storage systems</field>
+<field name="term"  boost="18.0">firewalls</field>
+<field name="term"  boost="2.0">spreadsheet programs</field>
+<field name="term"  boost="2.0">privacy</field>
+<field name="term"  boost="20.0">intrusion detection</field>
+<field name="term"  boost="2.0">availability</field>
+<field name="term"  boost="2.0">query processing</field>
+<field name="term"  boost="2.0">deductive databases</field>
+<field name="term"  boost="2.0">small business technology transfer</field>
+<field name="term"  boost="22.0">security</field>
+<field name="term"  boost="2.0">audio databases</field>
+<field name="term"  boost="2.0">prom</field>
+<field name="term"  boost="18.0">encryption</field>
+<field name="term"  boost="2.0">indexes</field>
+<field name="term"  boost="2.0">electronic design automation and methodology</field>
+<field name="term"  boost="18.0">computer crime</field>
+<field name="term"  boost="2.0">sorting</field>
+<field name="term"  boost="18.0">ciphers</field>
+<field name="term"  boost="2.0">transform coding</field>
+<field name="term"  boost="2.0">data acquisition</field>
+<field name="term"  boost="6.0">information systems</field>
+<field name="term"  boost="2.0">data assimilation</field>
+<field name="term"  boost="2.0">user-generated content</field>
+<field name="term"  boost="18.0">authentication</field>
+<field name="term"  boost="2.0">design methodology</field>
+<field name="term"  boost="20.0">identity management systems</field>
+<field name="term"  boost="2.0">art</field>
+<field name="term"  boost="2.0">source coding</field>
+<field name="term"  boost="2.0">data analysis</field>
+<field name="term"  boost="2.0">social implications of technology</field>
+<field name="term"  boost="8.0">business</field>
+<field name="term"  boost="6.0">information management</field>
+<field name="term"  boost="2.0">huffman coding</field>
+<field name="term"  boost="2.0">test data compression</field>
+<field name="term"  boost="2.0">data processing</field>
+<field name="term"  boost="24.0">information security</field>
+<field name="term"  boost="2.0">fastbus</field>
+<field name="term"  boost="18.0">permission</field>
+<field name="term"  boost="2.0">read only memory</field>
+<field name="term"  boost="2.0">technology</field>
+<field name="term"  boost="2.0">informatics</field>
+<field name="term"  boost="2.0">data collection</field>
+<field name="term"  boost="2.0">text processing</field>
+<field name="term"  boost="2.0">knowledge transfer</field>
+<field name="term"  boost="2.0">information exchange</field>
+<field name="term"  boost="8.0">management</field>
+<field name="term"  boost="2.0">object oriented databases</field>
+<field name="term"  boost="18.0">message authentication</field>
+<field name="term"  boost="18.0">computer hacking</field>
+<field name="term"  boost="2.0">data transfer</field>
+<field name="term"  boost="2.0">business data processing</field>
+<field name="competence_" >A.7 4</field>
+<field name="competence_" >D.1 5</field>
+<field name="competence_" >E.3 3</field>
+<field name="competence_" >E.8 4</field>
+<field name="competence_" >E.9 4</field>
+</doc></add>

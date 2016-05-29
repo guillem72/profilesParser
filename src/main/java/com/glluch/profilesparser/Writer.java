@@ -29,18 +29,29 @@ import org.apache.commons.io.FileUtils;
 public class Writer {
  public double term_boost=2.0;
     public double related_boost=1.0;
-    
+      public int radio=1;
+
+    public int getRadio() {
+        return radio;
+    }
+
+    public void setRadio(int radio) {
+        this.radio = radio;
+    }
+
     public void profiles2SolrXML(String path) throws IOException {
         ProfileHtmlReader phr = new ProfileHtmlReader();
         ArrayList<ICTProfile> ps = phr.readerDir("resources/ict_profiles");
+        Profile2IEEE.setRadio(radio);
         for (ICTProfile pp : ps) {
         HashMap<String, Double> ieee = Profile2IEEE.fillTerms(pp);
-        String xml="<add><doc>";
+        
+        String xml="<add><doc>"+System.lineSeparator();
         xml+="<field name=\"id\"";
-        xml+=">";
+        xml+=">"+System.lineSeparator();
         xml+=pp.getTitle();
-         xml+="</field>";
-         xml+="<field name=\"type\">ICT_profile</field>";
+         xml+="</field>"+System.lineSeparator();
+         xml+="<field name=\"type\">ICT_profile</field>"+System.lineSeparator();
          xml+=terms2xml("term",ieee);       
        xml+=competences2xml(pp.getEcfs());
         xml+="</doc></add>";
@@ -57,7 +68,7 @@ public class Writer {
      String res="";
      for (ECFMap ecf:ecfs){
           res+="<field name=\"competence_\" >"
-                   +ecf.getCode()+" "+ecf.getLevel()+"</field>";
+                   +ecf.getCode()+" "+ecf.getLevel()+"</field>"+System.lineSeparator();
      }
      return res;
     }
@@ -70,7 +81,7 @@ public class Writer {
            text+="<field name=\""+field_name+"\" "
                    + " boost=\""+term_boost*terms.get(t)+"\""
                    + ">"
-                   +t+"</field>";
+                   +t+"</field>"+System.lineSeparator();
        }
         return text;
     }

@@ -1,1 +1,33 @@
-<add><doc><field name="id">Digital Media Specialist</field><field name="type">ICT_profile</field><field name="term"  boost="2.0">codes</field><field name="term"  boost="2.0">visualization</field><field name="term"  boost="2.0">virtual reality</field><field name="term"  boost="2.0">engineering drawings</field><field name="term"  boost="2.0">parity check codes</field><field name="term"  boost="4.0">privacy</field><field name="term"  boost="2.0">graphics</field><field name="term"  boost="2.0">engineering management</field><field name="term"  boost="2.0">product codes</field><field name="term"  boost="2.0">content management</field><field name="term"  boost="2.0">symbols</field><field name="term"  boost="2.0">small business technology transfer</field><field name="term"  boost="2.0">computers and information processing</field><field name="term"  boost="4.0">technology social factors</field><field name="term"  boost="2.0">computer interfaces</field><field name="term"  boost="2.0">bar codes</field><field name="term"  boost="2.0">electronic design automation and methodology</field><field name="term"  boost="2.0">technological innovation</field><field name="term"  boost="2.0">information theory</field><field name="term"  boost="2.0">character generation</field><field name="term"  boost="2.0">design methodology</field><field name="term"  boost="2.0">binary codes</field><field name="term"  boost="2.0">art</field><field name="term"  boost="2.0">error correction codes</field><field name="term"  boost="4.0">social implications of technology</field><field name="term"  boost="2.0">social factors</field><field name="term"  boost="2.0">shape</field><field name="term"  boost="2.0">business</field><field name="term"  boost="2.0">appropriate technology</field><field name="term"  boost="2.0">reflective binary codes</field><field name="term"  boost="2.0">technology transfer</field><field name="term"  boost="4.0">technology</field><field name="term"  boost="2.0">browsers</field><field name="term"  boost="2.0">space-time codes</field><field name="term"  boost="2.0">animation</field><field name="term"  boost="2.0">layout</field><field name="term"  boost="2.0">computer graphics</field><field name="term"  boost="2.0">iterative decoding</field><field name="term"  boost="2.0">management</field><field name="term"  boost="2.0">cyclic redundancy check codes</field><field name="term"  boost="2.0">convolutional codes</field><field name="term"  boost="2.0">reed-solomon codes</field><field name="competence_" >A.6 2</field><field name="competence_" >B.1 3</field><field name="competence_" >B.3 2</field><field name="competence_" >B.4 3</field><field name="competence_" >B.5 3</field><field name="competence_" >D.12 2</field></doc></add>
+<add><doc>
+<field name="id">
+Digital Media Specialist</field>
+<field name="type">ICT_profile</field>
+<field name="term"  boost="2.0">design methodology</field>
+<field name="term"  boost="2.0">codes</field>
+<field name="term"  boost="4.0">social implications of technology</field>
+<field name="term"  boost="2.0">social factors</field>
+<field name="term"  boost="2.0">business</field>
+<field name="term"  boost="2.0">reflective binary codes</field>
+<field name="term"  boost="4.0">privacy</field>
+<field name="term"  boost="4.0">technology</field>
+<field name="term"  boost="2.0">graphics</field>
+<field name="term"  boost="2.0">engineering management</field>
+<field name="term"  boost="2.0">browsers</field>
+<field name="term"  boost="2.0">content management</field>
+<field name="term"  boost="2.0">small business technology transfer</field>
+<field name="term"  boost="2.0">computers and information processing</field>
+<field name="term"  boost="2.0">iterative decoding</field>
+<field name="term"  boost="2.0">technology social factors</field>
+<field name="term"  boost="2.0">computer interfaces</field>
+<field name="term"  boost="2.0">bar codes</field>
+<field name="term"  boost="2.0">electronic design automation and methodology</field>
+<field name="term"  boost="2.0">management</field>
+<field name="term"  boost="2.0">information theory</field>
+<field name="term"  boost="2.0">reed-solomon codes</field>
+<field name="competence_" >A.6 2</field>
+<field name="competence_" >B.1 3</field>
+<field name="competence_" >B.3 2</field>
+<field name="competence_" >B.4 3</field>
+<field name="competence_" >B.5 3</field>
+<field name="competence_" >D.12 2</field>
+</doc></add>
