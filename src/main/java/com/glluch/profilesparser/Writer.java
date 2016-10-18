@@ -28,7 +28,7 @@ import org.apache.commons.io.FileUtils;
  */
 public class Writer {
  public double term_boost=2.0;
-    public double related_boost=1.0;
+  
       public int radio=1;
 
     public int getRadio() {
@@ -42,7 +42,7 @@ public class Writer {
     public void profiles2SolrXML(String path) throws IOException {
         ProfileHtmlReader phr = new ProfileHtmlReader();
         ArrayList<ICTProfile> ps = phr.readerDir("resources/ict_profiles");
-        Profile2IEEE.setRadio(radio);
+        
         for (ICTProfile pp : ps) {
         HashMap<String, Double> ieee = Profile2IEEE.fillTerms(pp);
         

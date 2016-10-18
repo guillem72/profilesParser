@@ -40,11 +40,6 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>findTerms</artifactId>
-            <version>28032016</version>
-        </dependency>
-        <dependency>
             <groupId>com.glluch.jsolr</groupId>
             <artifactId>jsolr</artifactId>
             <version>28032016</version>
@@ -53,6 +48,11 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>Utils</artifactId>
             <version>10042016</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>findTerms</artifactId>
+            <version>28032016</version>
         </dependency>
     </dependencies>
     <properties>

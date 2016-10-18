@@ -33,6 +33,8 @@ public class Main {
             System.out.println(pp.compentences());
         }
     }
+    
+    /*
     public static void profiles() throws IOException, SolrServerException{
         ProfileHtmlReader phr = new ProfileHtmlReader();
 
@@ -57,6 +59,7 @@ public class Main {
             System.out.println(comp);
         }
     }
+*/
     
     
     public static void profilesSimple() throws IOException, SolrServerException{
