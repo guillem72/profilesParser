@@ -21,7 +21,7 @@ import java.util.Set;
 import org.apache.commons.lang3.math.NumberUtils;
 
 /**
- *
+ * A class for work with several aspects of an ICT profile.
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public class ICTProfile {
@@ -35,6 +35,10 @@ public class ICTProfile {
     protected HashMap <String,Double> pterms=new HashMap <>();
     protected HashMap <String, Double> rterms=new HashMap <>();
     
+    /**
+     * A way to get a friendly string for the competences of the profile.
+     * @return A friendly string for the competences of the profile.
+     */
     public String compentences(){
         return ecfs.toString();
     }
@@ -46,6 +50,10 @@ public class ICTProfile {
                 ",\n kpi=" + kpi + ",\n ecfs=" + ecfs.toString() + '}';
     }
 
+    /**
+     * Get the terms asociated with a profile without its counts.
+     * @return the asociated terms.
+     */
     public ArrayList <String> onlyTerms(){
         ArrayList <String> res=new ArrayList <>();
         res.addAll(pterms.keySet());
@@ -61,6 +69,10 @@ public class ICTProfile {
         this.pterms = pterms;
     }
     
+    /**
+     * Transform the counts of the terms as in integers in a counts as doubles. 
+     * @param pterms The map of terms to counts.
+     */
     public void setPtermsI2D(HashMap<String, Integer> pterms) {
         Set keys=pterms.keySet();
         for(Object key0:keys){
@@ -79,9 +91,10 @@ public class ICTProfile {
         this.rterms = rterms;
     }
 
-    
-    
-    
+    /**
+     * A pretty representation of the competences codes of the current profile. 
+     * @return The list of competence codes.
+     */
     public String getCompenteCodes(){
         String res="";
         for (ECFMap ecf:ecfs){
@@ -140,7 +153,12 @@ public class ICTProfile {
         this.ecfs = ecfs;
     }
 
-       public String plainTasks(){
+    /**
+     * Build a string to show the tasks for the current profile.
+     * @return The string representing the tasks or a string saying the title of
+     * the profile and that there isn't any task.
+     */
+    public String plainTasks(){
             String res="";
             if (tasks!=null){
             for(String a:tasks){

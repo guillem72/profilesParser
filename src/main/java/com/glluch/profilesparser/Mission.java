@@ -20,93 +20,98 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
+ * Represents the missiong fragment of a ICT profile.
  *
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public class Mission {
-        private String text;
-       
-       
-        private ArrayList <String> account;
-        private ArrayList <String> respon;
-        private ArrayList <String> contrib;
 
-        public Mission(String text) {
-            this.text = text;
-            account=new ArrayList<>();
-            respon=new ArrayList<>();
-            contrib=new ArrayList<>();
-            
-            
-        }
+    private String text;
+
+    private ArrayList<String> account;
+    private ArrayList<String> respon;
+    private ArrayList<String> contrib;
+
+    /**
+     * Inicializes a new Mission from the fragment of the text.
+     * @param text the fragment of the text with the mission for the profile
+     */
+    public Mission(String text) {
+        this.text = text;
+        account = new ArrayList<>();
+        respon = new ArrayList<>();
+        contrib = new ArrayList<>();
+
+    }
 
     @Override
     public String toString() {
-        return "Mission{" + "\n\ttext=" + text +  
-                ",\n\t account=" + account + 
-                ",\n\t respon=" + respon + ",\n\t contrib=" + contrib + '}';
+        return "Mission{" + "\n\ttext=" + text
+            + ",\n\t account=" + account
+            + ",\n\t respon=" + respon + ",\n\t contrib=" + contrib + '}';
     }
-        
-        
-        public String plainString(){
-        String res=text;
-        res+=plainAccount()+plainRespon()+plainContrib();
-        return res;
-        }
-        
-        public void addAccount(List <String> txt){
-            account.addAll(txt);
-        }
-        
-        public void addAccount(String txt){
-            account.add(txt);
-        }
-        
-        public void addRespon(String txt){
-            respon.add(txt);            
-        }
-        public void addRespon(List <String> txt){
-            respon.addAll(txt);
-        }
-        
-        public void addContrib(String txt){
-            contrib.add(txt);
-        }
-        public void addContrib(List <String> txt){
-            contrib.addAll(txt);
-        }
-        
-        public String getText() {
-            return text;
-          
-        }
 
-        public void setText(String text) {
-            this.text = text;
+    public String plainString() {
+        String res = text;
+        res += plainAccount() + plainRespon() + plainContrib();
+        return res;
+    }
+
+    public void addAccount(List<String> txt) {
+        account.addAll(txt);
+    }
+
+    public void addAccount(String txt) {
+        account.add(txt);
+    }
+
+    public void addRespon(String txt) {
+        respon.add(txt);
+    }
+
+    public void addRespon(List<String> txt) {
+        respon.addAll(txt);
+    }
+
+    public void addContrib(String txt) {
+        contrib.add(txt);
+    }
+
+    public void addContrib(List<String> txt) {
+        contrib.addAll(txt);
+    }
+
+    public String getText() {
+        return text;
+
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String plainAccount() {
+        String res = "";
+        for (String a : account) {
+            res += " " + a;
         }
-        
-        public String plainAccount(){
-            String res="";
-            for(String a:account){
-                res+=" "+a;
-            }
-            return res;
+        return res;
+    }
+
+    public String plainRespon() {
+        String res = "";
+        for (String a : respon) {
+            res += " " + a;
         }
-        
-        public String plainRespon(){
-            String res="";
-            for(String a:respon){
-                res+=" "+a;
-            }
-            return res;
+        return res;
+    }
+
+    public String plainContrib() {
+        String res = "";
+        for (String a : contrib) {
+            res += " " + a;
         }
-        
-        public String plainContrib(){
-            String res="";
-            for(String a:contrib){
-                res+=" "+a;
-            }
-            return res;
-        }
-       
+        return res;
+    }
+
 }

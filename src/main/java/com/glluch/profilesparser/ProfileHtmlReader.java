@@ -28,11 +28,12 @@ import org.jsoup.select.Elements;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * This class need to be inproved. It doesn't capture some profiles where
- * Accountable, Responsible, Contributor in Mission aren't in ul tag
- *
+ * Read a profile in HTML file and construct a java instance.
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
+
+// This class need to be improved. It doesn't capture some profiles where
+// Accountable, Responsible, Contributor in Mission aren't in ul tag?
 public class ProfileHtmlReader implements iProfileReader {
 
     String filename="null";
@@ -40,6 +41,11 @@ public class ProfileHtmlReader implements iProfileReader {
     Document doc;
     String allTxt;
 
+    /**
+     * A method that makes some inicializations and avoid repeet them.
+     * @param filename The html file where the profile is stored.
+     * @throws IOException can't not read a file.
+     */
     public void init(String filename) throws IOException {
         if (!StringUtils.equals(this.filename, filename)){
         this.input = new File(filename);
@@ -47,6 +53,12 @@ public class ProfileHtmlReader implements iProfileReader {
         allTxt = doc.getElementById("clipboard_text").text();}
     }
 
+    /**
+     * Read an parse a hmtl file which contains a ICT profile. Some parts are extracted 
+     * with Jsop and some others from a plain text.
+     * @param filename The html file where the profile is stored.
+     * @return An ICTProfile read from the html file.
+     */
     @Override
     public ICTProfile reader(String filename) {
         ICTProfile res = new ICTProfile();
@@ -111,7 +123,7 @@ public class ProfileHtmlReader implements iProfileReader {
             //res.setTasks(tasks);
             //Get Competences
             i = 0;
-            Elements cs = doc.select("h4");//the first h4 is not a comptence
+            Elements cs = doc.select("h4");//the first h4 is not a competence
 
             ArrayList<String> comps = new ArrayList<>();//all comptences are here but not the levels
             for (Element c : cs) {
@@ -130,10 +142,18 @@ public class ProfileHtmlReader implements iProfileReader {
         return res;
     }
 
+    /**
+     * Given a ICT profile in html file, extracts  
+     * all the competences in the profile and builds a list of 
+     * {@link com.glluch.profilesparser.ECFMap} from them.
+     * @param filename The html file where the profile is stored.
+     * @return A list with all the competences as {@link com.glluch.profilesparser.ECFMap}.
+     * @throws IOException can't not read the html file.
+     */
     public ArrayList<ECFMap> competences(String filename) throws IOException {
         init(filename);
 
-        ArrayList<ECFMap> ecfm = new ArrayList<>();
+        ArrayList<ECFMap> ecfm ;
         int i = 0;
         Elements cs = doc.select("h4");//the first h4 is not a comptence
 
@@ -151,7 +171,13 @@ public class ProfileHtmlReader implements iProfileReader {
         return ecfm;
     }
     
-    public String completeText(String filename) throws IOException{
+    /*
+     * Try to find all the competences in plain text
+     * @param filename The html file where the profile is stored.
+     * @return String Competences 
+     * @throws IOException can't not read the html file.
+     */
+    /*public String completeText(String filename) throws IOException{
         init(filename);
         String longText = StringUtils.substringBefore(allTxt, "KPI area");
         int i = 0;
@@ -164,7 +190,7 @@ public class ProfileHtmlReader implements iProfileReader {
         }
     return longText;
     }
-
+       */
     private ArrayList<ECFMap> foundLevels(ArrayList<String> limits, String allTxt) {
 
         ArrayList<ECFMap> res = new ArrayList<>();

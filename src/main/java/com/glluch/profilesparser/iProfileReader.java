@@ -18,7 +18,7 @@ package com.glluch.profilesparser;
 import java.util.ArrayList;
 
 /**
- *
+ * A class that implements a method to read ICT profiles and build tems as an ArrayList
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public interface iProfileReader {

@@ -1,4 +1,5 @@
 package com.glluch.profilesparser;
+
 import com.glluch.findterms.Vocabulary;
 import com.glluch.findterms.FindTerms;
 import com.glluch.findterms.Surrogate;
@@ -21,15 +22,15 @@ import java.util.Set;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 /**
- *
+ * Class to find the terms from IEEE Computers in a ICT profile.
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public class Profile2IEEE {
-        public static double term_boost=2.0;
-        public static double related_boost=1.0;
-        public static int radio=1;
+
+    public static double term_boost = 2.0;
+    public static double related_boost = 1.0;
+    public static int radio = 1;
 
     public static int getRadio() {
         return radio;
@@ -38,64 +39,75 @@ public class Profile2IEEE {
     public static void setRadio(int radio) {
         Profile2IEEE.radio = radio;
     }
-        
-        
-        
-        public static HashMap<String,Double> fillTerms(ICTProfile p) {
-    HashMap<String,Integer> res;
-    FindTerms finder=new FindTerms();
+
+    /**
+     * Given a profile search the IEEE Computers terms and their related in its fields.
+     * @param p The ICT profile.
+     * @return A hashmap terms -&gt; "counts"
+     */
+    public static HashMap<String, Double> fillTerms(ICTProfile p) {
+        HashMap<String, Integer> res;
+        FindTerms finder = new FindTerms();
         //FindTerms.vocabulary=labels;
-        FindTerms.vocabulary=Vocabulary.get();
+        FindTerms.vocabulary = Vocabulary.get();
         //HashMap<String,Integer> foundAndCount
-        String doc="";
-        doc+=p.getTitle()+" "+p.getSummary()+" "+p.getMission().plainString();
-        doc+=" "+p.plainTasks()+" "+p.getKpi();
+        String doc = "";
+        doc += p.getTitle() + " " + p.getSummary() + " " + p.getMission().plainString();
+        doc += " " + p.plainTasks() + " " + p.getKpi();
         //System.out.println(doc);
-        res=finder.foundAndCount(doc);
-       p.setPtermsI2D(res);
-       ArrayList <String> pterms=p.onlyTerms();
-       Surrogate surro=new Surrogate(Vocabulary.jenaModel,radio);
-       HashMap<String, ArrayList<String>> rtermsRaw=surro.surrogatesForeach(pterms);
-       HashMap <String,Double> rterms=preIntersect(p.getPterms(),rtermsRaw);
-       p.setRterms(rterms);
-      HashMap<String,Double>  res1=com.glluch.utils.JMap.intersectAndSum(p.getPterms(),p.getRterms());
+        res = finder.foundAndCount(doc);
+        p.setPtermsI2D(res);
+        ArrayList<String> pterms = p.onlyTerms();
+        Surrogate surro = new Surrogate(Vocabulary.jenaModel, radio);
+        HashMap<String, ArrayList<String>> rtermsRaw = surro.surrogatesForeach(pterms);
+        HashMap<String, Double> rterms = preIntersect(p.getPterms(), rtermsRaw);
+        p.setRterms(rterms);
+        HashMap<String, Double> res1 = com.glluch.utils.JMap.intersectAndSum(p.getPterms(), p.getRterms());
         return res1;
-}
-        private static HashMap <String,Double> preIntersect(HashMap<String,Double> weights, HashMap<String, ArrayList<String>> rterms){
-            HashMap <String,Double> res=new HashMap <>();
-            Set keys=rterms.keySet();
-            for (Object key0:keys){
-                String key=(String) key0;
-                double value0=weights.get(key);
-                double value=value0*related_boost;
-                if (res.isEmpty()) res=forEach(rterms.get(key),value);
-                else{
-                    res=com.glluch.utils.JMap.intersectAndSum(res,forEach(rterms.get(key),value));
-                }
-                
+    }
+
+    
+    
+    private static HashMap<String, Double> preIntersect(HashMap<String, Double> weights, HashMap<String, ArrayList<String>> rterms) {
+        HashMap<String, Double> res = new HashMap<>();
+        Set keys = rterms.keySet();
+        for (Object key0 : keys) {
+            String key = (String) key0;
+            double value0 = weights.get(key);
+            double value = value0 * related_boost;
+            if (res.isEmpty()) {
+                res = forEach(rterms.get(key), value);
+            } else {
+                res = com.glluch.utils.JMap.intersectAndSum(res, forEach(rterms.get(key), value));
             }
-            return res;
-        }
-        
-        private static HashMap <String,Double> forEach(ArrayList <String> rterms,double val){
-        HashMap <String,Double> res=new HashMap <>();
-        for (String t:rterms){
-            res.put(t,val);
+
         }
         return res;
+    }
+
+    private static HashMap<String, Double> forEach(ArrayList<String> rterms, double val) {
+        HashMap<String, Double> res = new HashMap<>();
+        for (String t : rterms) {
+            res.put(t, val);
         }
-    
-    
+        return res;
+    }
+
+    /**
+     * Given a profile search the IEEE Computers terms and their related in its fields.
+     * @param p The ICT profile.
+     * @return The list of terms found.
+     */
     public static ArrayList<String> doit(ICTProfile p) {
-    ArrayList<String> res;
-    FindTerms finder=new FindTerms();
+        ArrayList<String> res;
+        FindTerms finder = new FindTerms();
         //FindTerms.vocabulary=labels;
-        FindTerms.vocabulary=Vocabulary.get();
-        String doc="";
-        doc+=p.getTitle()+" "+p.getSummary()+" "+p.getMission().plainString();
-        doc+=" "+p.plainTasks()+" "+p.getKpi();
+        FindTerms.vocabulary = Vocabulary.get();
+        String doc = "";
+        doc += p.getTitle() + " " + p.getSummary() + " " + p.getMission().plainString();
+        doc += " " + p.plainTasks() + " " + p.getKpi();
         //System.out.println(doc);
-        res=finder.found(doc);
+        res = finder.found(doc);
         return res;
-}
+    }
 }

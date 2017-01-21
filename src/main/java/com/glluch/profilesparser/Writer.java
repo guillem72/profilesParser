@@ -23,66 +23,78 @@ import java.util.Set;
 import org.apache.commons.io.FileUtils;
 
 /**
+ * A class for write files
  *
  * @author Guillem LLuch Moll guillem72@gmail.com
  */
 public class Writer {
- public double term_boost=2.0;
-  
-      public int radio=1;
 
-    public int getRadio() {
-        return radio;
-    }
+    /**
+     * The factor which the proper term will be multiplied
+     */
+    //TODO make static
+    public double term_boost = 2.0;
 
-    public void setRadio(int radio) {
-        this.radio = radio;
-    }
-
+    /**
+     * For each profile, writes an xml file for add to Solr. TODO Make the read dir a var.
+     * @param path The directory where the files will be written.
+     * @throws IOException if can't read o write
+     */
     public void profiles2SolrXML(String path) throws IOException {
         ProfileHtmlReader phr = new ProfileHtmlReader();
         ArrayList<ICTProfile> ps = phr.readerDir("resources/ict_profiles");
-        
+
         for (ICTProfile pp : ps) {
-        HashMap<String, Double> ieee = Profile2IEEE.fillTerms(pp);
-        
-        String xml="<add><doc>"+System.lineSeparator();
-        xml+="<field name=\"id\"";
-        xml+=">"+System.lineSeparator();
-        xml+=pp.getTitle();
-         xml+="</field>"+System.lineSeparator();
-         xml+="<field name=\"type\">ICT_profile</field>"+System.lineSeparator();
-         xml+=terms2xml("term",ieee);       
-       xml+=competences2xml(pp.getEcfs());
-        xml+="</doc></add>";
-        //competencesXMLsolr
-        String fileTitle=pp.getTitle()+".xml";
-        FileUtils.writeStringToFile(new File(path+fileTitle), xml, "utf8");
-       
-         }
-        
+            HashMap<String, Double> ieee = Profile2IEEE.fillTerms(pp);
+
+            String xml = "<add><doc>" + System.lineSeparator();
+            xml += "<field name=\"id\"";
+            xml += ">" + System.lineSeparator();
+            xml += pp.getTitle();
+            xml += "</field>" + System.lineSeparator();
+            xml += "<field name=\"type\">ICT_profile</field>" + System.lineSeparator();
+            xml += terms2xml("term", ieee);
+            xml += competences2xml(pp.getEcfs());
+            xml += "</doc></add>";
+            //competencesXMLsolr
+            String fileTitle = pp.getTitle() + ".xml";
+            FileUtils.writeStringToFile(new File(path + fileTitle), xml, "utf8");
+
+        }
+
     }
-    
-    protected String competences2xml(ArrayList<ECFMap> ecfs){
-     //competence_
-     String res="";
-     for (ECFMap ecf:ecfs){
-          res+="<field name=\"competence_\" >"
-                   +ecf.getCode()+" "+ecf.getLevel()+"</field>"+System.lineSeparator();
-     }
-     return res;
+
+    /**
+     * Given a lists of code of competences, makes the piece of xml to write it.
+     * @param ecfs A list of ECFMaps, all the competences levels in the profile.
+     * @return An xml string which is the part representing the competences levels. 
+     */
+    protected String competences2xml(ArrayList<ECFMap> ecfs) {
+        //competence_
+        String res = "";
+        for (ECFMap ecf : ecfs) {
+            res += "<field name=\"competence_\" >"
+                + ecf.getCode() + " " + ecf.getLevel() + "</field>" + System.lineSeparator();
+        }
+        return res;
     }
-    
-    protected String terms2xml(String field_name,HashMap <String,Double> terms){
-        String text="";
-      Set pterms=terms.keySet();
-       for (Object t0: pterms){
-           String t=(String) t0;
-           text+="<field name=\""+field_name+"\" "
-                   + " boost=\""+term_boost*terms.get(t)+"\""
-                   + ">"
-                   +t+"</field>"+System.lineSeparator();
-       }
+
+    /**
+     * Prepare the terms for Solr's xml.
+     * @param field_name The name of the Solr's field.
+     * @param terms A hash map terms -&gt; counts to be transform as xml.
+     * @return An xml string which is the part representing the terms.
+     */
+    protected String terms2xml(String field_name, HashMap<String, Double> terms) {
+        String text = "";
+        Set pterms = terms.keySet();
+        for (Object t0 : pterms) {
+            String t = (String) t0;
+            text += "<field name=\"" + field_name + "\" "
+                + " boost=\"" + term_boost * terms.get(t) + "\""
+                + ">"
+                + t + "</field>" + System.lineSeparator();
+        }
         return text;
     }
 }
